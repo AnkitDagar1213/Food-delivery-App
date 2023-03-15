@@ -16,9 +16,9 @@
 
 ### Controllers:
 
-UserController: Handles requests related to user authentication and CRUD operations for users.
+UserController: Handles creating user and fetching data about user by its id and fetching all users.
 
-AdminController: Handles CRUD operations for songs. Only users with admin role can perform CRUD operations.
+AdminController: Handles creating adminand doing CRUD operations for FoodItem. Only admin role can perform CRUD operations on FoodItems.
 
 RestaurantController: Handles CRUD operations for playlists. Only users with user role can perform CRUD operations.
 
