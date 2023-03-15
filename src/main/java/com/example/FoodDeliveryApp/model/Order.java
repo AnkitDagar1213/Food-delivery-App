@@ -12,7 +12,6 @@ public class Order {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private int Order_id;
     @ManyToOne(fetch = FetchType.LAZY)
-    @Column(name="User_id")
     private User user_id;
     @OneToOne
     @JoinColumn(name = "FoodItem_id")
