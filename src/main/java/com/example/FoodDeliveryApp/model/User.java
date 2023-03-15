@@ -5,6 +5,8 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import jakarta.persistence.*;
+import org.hibernate.validator.constraints.Length;
+
 import java.util.List;
 @Data
 @AllArgsConstructor
@@ -23,6 +25,9 @@ public class User {
     @Email(message = "Invalid email address")
     @Column(name = "email")
     private String email;
+    @NotNull(message = "Address is mandatory")
+    @Length(min = 5,max = 50)
+    private String address;
     @Digits(integer = 10,fraction = 0)
     @Column(name = "phone_number")
     private String phoneNumber;
