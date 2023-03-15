@@ -18,11 +18,11 @@
 
 UserController: Handles creating user and fetching data about user by its id and fetching all users.
 
-AdminController: Handles creating adminand doing CRUD operations for FoodItem. Only admin role can perform CRUD operations on FoodItems.
+AdminController: Handles creating admin and doing CRUD operations for FoodItem. Only admin role can perform CRUD operations on FoodItems.
 
-RestaurantController: Handles CRUD operations for playlists. Only users with user role can perform CRUD operations.
+RestaurantController: Handles creating restaurant and fetching data about restaurant by its id and fetching all restaurants.
 
-OrderController: Handles CRUD operations for playlists. Only users with user role can perform CRUD operations.
+OrderController: Handles creating order and fetching data about order by user id and fetching all orders.
 
 ### Services:
 
