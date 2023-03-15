@@ -18,10 +18,6 @@ public class Admin {
     @Length(min = 5,max = 20,message = "Username Length should be in 5-20")
     @Column(name="Username")
     private String username;
-    @Length(min = 5,max = 20,message = "Password Length should be in 5-20")
-    @NotNull
-    @Column(name="Password")
-    private String password;
     @Email(message = "enter valid email")
     @NotNull
     @Column(name="Email")
@@ -30,10 +26,10 @@ public class Admin {
     @NotNull
     @Column(name="Phone_number")
     private String phone_number;
-    @JoinColumn(name = "FoodId")
+    @JoinColumn(name = "FoodList")
     @OneToMany(fetch = FetchType.LAZY)
-    private List<FoodItem> foodItem;
-    @JoinColumn(name = "OrderId")
+    private List<FoodItem> foodList;
+    @JoinColumn(name = "OrderList")
     @OneToMany(fetch = FetchType.LAZY)
     private List<Order>  orderList;
 }
