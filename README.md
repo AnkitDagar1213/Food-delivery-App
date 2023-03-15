@@ -65,7 +65,7 @@ FoodItem table: Contains the status details such as status name and description
 JSONObject and JSONArray objects are used to handle JSON data in the application
 
 ## Project Summary:
-This project is a music streaming service that allows users to create playlists and add songs to them. Users can also perform CRUD operations on their own account and songs they have added. Admin users have additional privileges to perform CRUD operations on all songs. The project is built using Java and Spring Boot, with a MySQL database to store data. 
+This project is Food Delivery that allows users to make order from restaurant. Users can also fetch the order history. Admin has the power of CRUD operation on food items. The project is built using Java and Spring Boot, with a MySQL database to store data. 
 The Swagger UI is used to provide an interactive API documentation. 
 
 The project is deployed on EC2 instance and can be accessed through the following link:[http://13.233.118.191:8080/swagger-ui/index.html#/]
