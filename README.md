@@ -50,15 +50,15 @@ FoodItemRepository: Communicates with the database for FoodItem-related operatio
 
 ## Database Design:
 
-User table: Contains user details such as user_id,name, email, address, and phone number.
+User table: Contains user details such as user_id, name, email, address, and phone number.
 
 Admin table: Contains Admin details such as Admin_id, username, password, email, phone number, food list and orderList.
 
-Restaurant table: Contains the status details such as status name and description.
+Restaurant table: Contains the Restaurant details such as name, address and fooditems.
 
-Order table: Contains the status details such as status name and description.
+Order table: Contains the order details such as Order_id, FoodItem_id and User_id.
 
-FoodItem table: Contains the status details such as status name and description.
+FoodItem table: Contains the FoodItem details such as FoodItem_id, name and description.
 
 ## Data Structure:
 
