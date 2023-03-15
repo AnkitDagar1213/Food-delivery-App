@@ -26,39 +26,39 @@ OrderController: Handles CRUD operations for playlists. Only users with user rol
 
 ### Services:
 
-UserService: Handles User data to make order
+UserService: Handles User data to make order.
 
-AdminService: Handles Admin power to create,delete,update and get fooditems data 
+AdminService: Handles Admin power to create,delete,update and get fooditems data.
 
-RestaurantService: Handles Restaurant-related business logic
+RestaurantService: Handles Restaurant-related business logic.
 
-OrderService: Handles Order made by user business logic
+OrderService: Handles Order made by user business logic.
 
-FoodItemService: Handles FoodItem-related business logic
+FoodItemService: Handles FoodItem-related business logic.
 
 ### Repository:
 
-UserRepository: Communicates with the database for user-related operations
+UserRepository: Communicates with the database for user-related operations.
 
-AdminRepository: Communicates with the database for Admin-related operations
+AdminRepository: Communicates with the database for Admin-related operations.
 
 RestaurantRepository: Communicates with the database for Restaurant-related operations
 
-OrderRepository: Communicates with the database for Order-related operations
+OrderRepository: Communicates with the database for Order-related operations.
 
-FoodItemRepository: Communicates with the database for FoodItem-related operations
+FoodItemRepository: Communicates with the database for FoodItem-related operations.
 
 ## Database Design:
 
-User table: Contains user details such as name, email, password, and phone number
+User table: Contains user details such as user_id,name, email, address, and phone number.
 
-Admin table: Contains chat messages between users, along with the sender and receiver IDs
+Admin table: Contains Admin details such as Admin_id, username, password, email, phone number, food list and orderList.
 
-Restaurant table: Contains the status details such as status name and description
+Restaurant table: Contains the status details such as status name and description.
 
-Order table: Contains the status details such as status name and description
+Order table: Contains the status details such as status name and description.
 
-FoodItem table: Contains the status details such as status name and description
+FoodItem table: Contains the status details such as status name and description.
 
 ## Data Structure:
 
