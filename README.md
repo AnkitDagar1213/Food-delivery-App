@@ -1,4 +1,4 @@
-# Food-delivery-App
+# Food-Delivery-App
 
 ## Frameworks and Language Used:
 
@@ -62,7 +62,7 @@ FoodItem table: Contains the status details such as status name and description
 
 ## Data Structure:
 
-JSONObject and JSONArray objects are used to handle JSON data in the application
+List - Used for returning a list of products.
 
 ## Project Summary:
 This project is Food Delivery that allows users to make order from restaurant. Users can also fetch the order history. Admin has the power of CRUD operation on food items. The project is built using Java and Spring Boot, with a MySQL database to store data. 
